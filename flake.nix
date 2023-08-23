@@ -7,7 +7,6 @@
     {
       packages.x86_64-linux.default = pkgs.runCommand "hm" {} ''
         echo NYA NYA
-        touch $out
       '';
     };
 }
